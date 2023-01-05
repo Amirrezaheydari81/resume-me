@@ -1,0 +1,14 @@
+.each-slide>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    width: 80vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+/* .slide-container {
+    width: 100vw;
+    height: 100vh;
+} */
