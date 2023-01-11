@@ -8,3 +8,6 @@
 2. Added loading to items
 3. Added SEO and optimization
 4. Added photo gallery and resume
+5. Add random loading times
+6. Create an error page
+7. Set routes for created pages
