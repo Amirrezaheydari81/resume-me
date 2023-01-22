@@ -1,0 +1,266 @@
+@font-face {
+    font-family: danapro;
+    src: url("https://waregint.sirv.com/iseokar.ir/fonts/Dana-Regular.woff2") format("woff2");
+    font-weight: 100;
+    font-style: normal
+}
+
+body {
+    background-color: var(--color1);
+    font-family: danapro !important;
+    overflow-x: hidden !important;
+
+}
+
+:root {
+    --color1: #FFFFFF;
+    --color2: #3E78B2;
+    --color3: #4C4C4E;
+    --color4: #FF3B1D;
+    --color5: #D9D9D9;
+}
+.bg-50-color3{
+    background: #4c4c4e80 !important;
+    color: var(--color5) !important;
+}
+.text-color2{
+    color: var(--color2) !important;
+}
+/* .profile {} */
+
+#profileimg {
+    border-radius: 10px !important;
+    box-shadow: rgba(0, 0, 0, 0.4) -5px 5px, rgba(0, 0, 0, 0.3) -10px 10px, rgba(0, 46, 170, 0.2) -15px 15px, rgba(0, 0, 0, 0.1) -10px 10px, rgba(0, 0, 0, 0.05) -0 0;
+    /* box-shadow: 0 0 100px var(--color3); */
+}
+
+.polygon {
+    max-width: 72px;
+    max-height: 79px;
+    position: relative;
+    z-index: 999;
+    margin-bottom: -4em;
+    left: 1em;
+}
+
+.ellipse {
+    max-width: 150px;
+    max-height: 150px;
+    position: relative;
+    z-index: 101;
+    margin-top: -20em;
+    right: 29em;
+}
+
+.btn-blue-new {
+    max-width: 60px;
+    max-height: 60px;
+    background-color: var(--color2);
+    color: var(--color1);
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.btn-blue-new:hover {
+    color: var(--color3);
+    transition: color 0.5s;
+}
+
+.btn-blue-new>svg {
+    width: 20px;
+    height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.border-10 {
+    border-radius: 10px !important;
+}
+
+.border-s1 {
+    border: none;
+    border-right: solid 1px var(--color3);
+}
+
+.btn-gray-new {
+    max-width: fit-content;
+    max-height: fit-content;
+    background-color: var(--color5);
+    color: var(--color3);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-gray-new:hover {
+    color: var(--color1);
+    background-color: var(--color3);
+}
+
+.btn-gray-new>svg {
+    width: 20px;
+    height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.border-color5 {
+    border-color: var(--color5);
+}
+
+.bg-color5 {
+    width: calc(30vw + 5vw) !important;
+    background: linear-gradient(45deg, transparent 0, transparent 30px, var(--color5) 0, var(--color5) 100%) !important;
+    color: var(--color3) !important;
+
+}
+
+/* .border-rgb {} */
+
+.border-rgb::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(45deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(11px) !important;
+    -webkit-backdrop-filter: blur(11px) !important;
+}
+
+#storysvg>path {
+    fill: var(--color2) !important;
+}
+
+#projectsvg>path {
+    fill: var(--color4) !important;
+}
+
+#certificateSvg>path {
+    fill: var(--color2) !important;
+}
+
+.nav-shadow {
+    box-shadow: rgba(17, 12, 46, 0.15) 0 0 50px 0;
+}
+
+.imageSelect {
+    opacity: 0.5;
+    transition: opacity 0.25s ease-in;
+}
+
+.imageSelect:hover {
+    opacity: 1;
+}
+
+/* rgb animotion */
+@-webkit-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-moz-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-o-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .polygon {
+        margin-bottom: -4em;
+        left: 0;
+    }
+
+    .ellipse {
+        margin-top: -10em;
+        right: 20em;
+    }
+
+    .border-s1 {
+        border: none;
+    }
+
+    .bg-color5 {
+        width: calc(80vw + 5vw) !important;
+        background: linear-gradient(60deg, transparent 0, transparent 30px, var(--color5) 0, var(--color5) 100%) !important;
+        color: var(--color3) !important;
+
+    }
+
+    #projectsvg {
+        width: 70vw;
+    }
+
+    #storysvg {
+        width: 70vw !important;
+    }
+
+    #certificateSvg {
+            width: 70vw !important;
+    }
+
+    .text-sm-center {
+        text-align: center !important;
+    }
+
+    .flex-column-sm-reverse {
+        flex-direction: column-reverse !important;
+    }
+
+    .body {
+        justify-content: center !important;
+    }
+}

@@ -11,3 +11,4 @@
 5. Add random loading times
 6. Create an error page
 7. Set routes for created pages
+8. Blog Archive Page Create
