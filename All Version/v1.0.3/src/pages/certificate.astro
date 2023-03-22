@@ -1,0 +1,16 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Sidebar from "../components/landing/Sidebar.astro";
+import CertificateContent from "../components/certificate/CertificateContent.astro";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<AstroSeo title="Certificate - Amirreza Heydari" />
+<BaseLayout>
+  <div class="2xl:max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-4">
+      <Sidebar />
+      <CertificateContent />
+    </div>
+  </div>
+</BaseLayout>

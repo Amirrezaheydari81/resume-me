@@ -1,0 +1,16 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Sidebar from "../components/landing/Sidebar.astro";
+import Lightroom from "../components/landing/Lightroom.astro";
+import { AstroSeo } from "@astrolib/seo";
+---
+
+<AstroSeo title="Amirreza Heydari - Web Developer" />
+<BaseLayout>
+  <div class="2xl:max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-4">
+      <Sidebar />
+      <Lightroom />
+    </div>
+  </div>
+</BaseLayout>
